@@ -1,0 +1,296 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.signup-btn {
+    background: #ff4500;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hero section styling */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.hero-text input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    background: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 400px;
+}
+
+/* Dishes section styling */
+.dishes {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.dishes h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.dishes span {
+    color: #ff4500;
+}
+
+.dish-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dish, .deal {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(25% - 20px);
+}
+
+.dish img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.dish p, .deal p {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.deal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color: #000000;
+    font: bold;
+}
+.deal .highlight {
+   
+    color: #ff4500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.deal .highlights {
+    color: #09ff00;
+}
+.deal img {
+    max-width: 150px;
+    margin-top: 10px;
+}
+
+.testimonial {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial blockquote {
+    font-style: italic;
+}
+
+/* How to order section styling */
+.how-to-order {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.how-to-order h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px);
+}
+
+.step span {
+    font-size: 2rem;
+    color: #ff4500;
+}
+
+.step img {
+    max-width: 80px;
+    margin: 20px 0;
+}
+
+/* Feedback section styling */
+.feedback {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.feedback h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.feedback .testimonial {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Newsletter section styling */
+.newsletter {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-links div {
+    margin: 10px;
+}
+
+.footer-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer p {
+    margin-top: 20px;
+}
